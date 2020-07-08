@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows Tiles</title>
+    <link rel="stylesheet" href="win.css">
+</head>
+<body>
+    <section class="s0" id="is0">
+        <div class="s0-d1"><a href="index.html">Sai Kumar Aili</a></div>
+        <div class="s0-d2"><a href="win.html">Tiles</a></div>
+        <div class="s0-d3"><a href="#">Blog</a></div>
+        <div class="s0-d4">
+            <a href="javascript:void(0);" style="font-size: 15px;"
+            class="icon" onclick="myFun()">&#9776;</a>
+        </div>
+    </section>
+    <section class="s1">
+        <div class="s1-d1">Education</div>
+        <div class="s1-d2">Projects</div>
+        <div class="s1-d3">Certifications</div>
+        <div class="s1-d0">
+            <div class="s1-d0-1">Profile Photo</div>
+            <div class="s1-d0-2">Name, Age and Location</div>
+        </div>
+    </section>
+    <section class="s2">
+        <div class="s2-d1">Experience</div>
+    </section>
+    <section class="s3">
+        <div class="s3-d1">Skills</div>
+        <div class="s3-d2">Achievements</div>
+        <div class="s3-d3">Connect</div>
+    </section>
+
+    <script>
+        function myFun() {
+            var x = document.getElementById("is0");
+            if (x.className === "s0") {
+                x.className += " responsive";
+            } else {
+                x.className = "s0";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    background-color: black;
+    display: block;
+}
+
+.s0 {
+    background-color: olivedrab;
+    width: 100%;
+    height: 10%;
+    left: 0;
+    top: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* padding: 1.5; */
+    position: fixed;
+    overflow: hidden;
+}
+.s0-d1 {
+    background-color: maroon;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin: 0.5%;
+    /* padding: 1.5%; */
+}
+.s0-d2 {
+    background-color: maroon;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin: 0.5%;
+    /* padding: 1.5%; */
+}
+.s0-d3 {
+    background-color: maroon;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin: 0.5%;
+    /* padding: 1.5%; */
+}
+.s0-d4 {
+    background-color: maroon;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin: 0.5%;
+    /* padding: 1.5%; */
+}
+.s0 .s0-d4 .icon {
+    display: none;
+}
+.s0 a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .s0 div a:not(:first-child) {display: none;}
+    .s0 .s0-d4 a.icon {
+        float: right;
+        display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    .s0.responsive .s0-d4.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .s0.responsive div a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.s1 {
+    background-color: red;
+    width: 100%;
+    height: 33%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* padding: 1.5; */
+    margin-top: 5%;
+}
+.s1-d1 {
+    background-color: darkmagenta;
+    border: 1px solid white;
+    box-sizing: border-box;
+    
+    margin: 5% 0% 5% 5%;
+    /* padding: 5%; */
+}
+.s1-d2 {
+    background-color: darkmagenta;
+    border: 1px solid white;
+    box-sizing: border-box;
+    height: 190%;
+    margin: 5% 0% 5% 5%;
+    /* padding: 5%; */
+}
+.s1-d3 {
+    background-color: darkmagenta;
+    border: 1px solid white;
+    box-sizing: border-box;
+    height: 190%;
+    margin: 5% 0% 5% 5%;
+    /* padding: 5%; */
+}
+.s1-d0 {
+    background-color: darkmagenta;
+    border: 1px solid white;
+    box-sizing: border-box;
+    height: 190%;
+    margin: 5%;
+    /* padding: 5%; */
+}
+.s1-d0-1 {
+    background-color: yellowgreen;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 0% 10% 0% 10%;
+    /* padding: 0.5%; */
+    height: 70%;
+}
+.s1-d0-2 {
+    background-color: yellowgreen;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin: 0.5%;
+    /* padding: 0.5%; */
+    height: 29%;
+}
+
+.s2 {
+    background-color: blue;
+    width: 74%;
+    height: 33%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* padding: 1.5; */
+}
+.s2-d1 {
+    background-color: darkmagenta;
+    border: 1px solid white;
+    box-sizing: border-box;
+    
+    margin: 5% 25% 5% 4%;
+    width: 62.5%;
+    /* padding: 5%; */
+}
+
+.s3 {
+    background-color: green;
+    width: 100%;
+    height: 23%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* padding: 1.5; */
+}
+.s3-d1 {
+    background-color: darkmagenta;
+    border: 1px solid white;
+    box-sizing: border-box;
+    
+    margin: 5%;
+    /* padding: 5%; */
+}
+.s3-d2 {
+    background-color: darkmagenta;
+    border: 1px solid white;
+    box-sizing: border-box;
+    
+    margin: 5%;
+    /* padding: 5%; */
+}
+.s3-d3 {
+    background-color: darkmagenta;
+    border: 1px solid white;
+    box-sizing: border-box;
+    
+    margin: 5%;
+    /* padding: 5%; */
+}
